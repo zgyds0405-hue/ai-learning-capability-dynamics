@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+.runtime/
+*.zip
+results/figure_qa/
+preview_h3_3d_20261102/qa/
+LATEX文档/output/

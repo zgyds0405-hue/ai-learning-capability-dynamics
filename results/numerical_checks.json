@@ -1,0 +1,125 @@
+{
+  "all_checks_passed": true,
+  "tolerance": 1e-07,
+  "method": "RK4",
+  "max_step": 0.01,
+  "fine_step": 0.005,
+  "step_halving": [
+    {
+      "name": "allocation",
+      "step_halving_max_error": 3.816946758661288e-13,
+      "passed": true
+    },
+    {
+      "name": "beta",
+      "step_halving_max_error": 1.0813572259849025e-13,
+      "passed": true
+    },
+    {
+      "name": "mechanisms",
+      "step_halving_max_error": 1.0036416142611415e-13,
+      "passed": true
+    },
+    {
+      "name": "coupling_Full",
+      "step_halving_max_error": 7.127631818093505e-14,
+      "passed": true
+    },
+    {
+      "name": "coupling_Freeze H2 input",
+      "step_halving_max_error": 4.574118861455645e-14,
+      "passed": true
+    },
+    {
+      "name": "coupling_Freeze H1 input",
+      "step_halving_max_error": 3.608224830031759e-14,
+      "passed": true
+    },
+    {
+      "name": "coupling_Freeze both inputs",
+      "step_halving_max_error": 1.7430501486614958e-14,
+      "passed": true
+    },
+    {
+      "name": "deadline_0.5",
+      "step_halving_max_error": 1.619537837171947e-13,
+      "passed": true
+    },
+    {
+      "name": "deadline_1",
+      "step_halving_max_error": 2.6453839119255917e-13,
+      "passed": true
+    },
+    {
+      "name": "deadline_2",
+      "step_halving_max_error": 3.5493830097266255e-13,
+      "passed": true
+    },
+    {
+      "name": "deadline_4",
+      "step_halving_max_error": 3.5438318946034997e-13,
+      "passed": true
+    },
+    {
+      "name": "deadline_8",
+      "step_halving_max_error": 3.4705571749782393e-13,
+      "passed": true
+    },
+    {
+      "name": "deadline_12",
+      "step_halving_max_error": 1.262323578998803e-13,
+      "passed": true
+    },
+    {
+      "name": "deadline_20",
+      "step_halving_max_error": 1.3322676295501878e-14,
+      "passed": true
+    },
+    {
+      "name": "initial_h20",
+      "step_halving_max_error": 4.3287595730134854e-13,
+      "passed": true
+    },
+    {
+      "name": "joint_4",
+      "step_halving_max_error": 9.15267861500979e-13,
+      "passed": true
+    },
+    {
+      "name": "joint_20",
+      "step_halving_max_error": 1.432187701766452e-14,
+      "passed": true
+    }
+  ],
+  "special_checks": {
+    "g0_eps0": 0.0,
+    "g1_eps0": 0.0,
+    "g0_eps0.1": 0.0,
+    "g1_eps0.1": 0.0,
+    "g0_eps1": 0.0,
+    "g1_eps1": 0.0,
+    "eps1_h2_independent_of_h1_initial": 0.0,
+    "eps1_h2_analytic": 2.1305179842556754e-13,
+    "eps0_u1_zero_state_trap": 0.0,
+    "u0_analytic_full_trajectory": 1.1879386363489175e-13,
+    "beta0_h1_analytic_u0": 1.1879386363489175e-13,
+    "beta0_h1_analytic_u0.25": 3.952393967665557e-14,
+    "beta0_h1_analytic_u0.5": 1.0658141036401503e-14,
+    "beta0_h1_analytic_u0.75": 1.4432899320127035e-15,
+    "beta0_h1_analytic_u1": 2.498001805406602e-16,
+    "u0_beta_invariance": 0.0,
+    "beta0_h1_h20_invariance": 0.0,
+    "frozen_controls_same_initial_vector_field": 0.0,
+    "rk4_vs_dop853_full_trajectories": 6.470779467804277e-11,
+    "deadline_prefix_invariance": 0.0
+  },
+  "state_range": {
+    "min": 0.0,
+    "max": 1.0
+  },
+  "max_step_halving_error": 9.15267861500979e-13,
+  "dop853_rtol": 1e-11,
+  "dop853_atol": 1e-13,
+  "boundary_checks_passed": true,
+  "state_clipping_used": false
+}

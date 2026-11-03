@@ -1,0 +1,294 @@
+{
+  "description": "A distinct constant u is selected ex ante for each horizon, never a switching trajectory.",
+  "parameters": {
+    "a": 0.25,
+    "beta": 0.48,
+    "c": 0.55,
+    "eps": 0.1,
+    "delta1": 0.02,
+    "delta2": 0.03
+  },
+  "initial": [
+    0.2,
+    0.1
+  ],
+  "w1": 0.5,
+  "w2": 0.5,
+  "u_grid_step": 0.005,
+  "n_u": 201,
+  "n_time": 2001,
+  "dt": 0.01,
+  "max_T": 20.0,
+  "weight_step": 0.01,
+  "selected_horizons": [
+    {
+      "T": 0.1,
+      "best_preset_u_h1": 0.0,
+      "best_preset_u_h2": 1.0,
+      "best_preset_u_h3": 0.0,
+      "best_grid_u_h3": 0.0,
+      "h1_at_best_h3": 0.2193377654119545,
+      "h2_at_best_h3": 0.09970044955033733,
+      "h3_max": 0.1595191074811459
+    },
+    {
+      "T": 0.25,
+      "best_preset_u_h1": 0.0,
+      "best_preset_u_h2": 1.0,
+      "best_preset_u_h3": 0.0,
+      "best_grid_u_h3": 0.0,
+      "h1_at_best_h3": 0.24738283984908557,
+      "h2_at_best_h3": 0.0992528054819139,
+      "h3_max": 0.17331782266549972
+    },
+    {
+      "T": 0.5,
+      "best_preset_u_h1": 0.0,
+      "best_preset_u_h2": 1.0,
+      "best_preset_u_h3": 0.5,
+      "best_grid_u_h3": 0.485,
+      "h1_at_best_h3": 0.25779974330330974,
+      "h2_at_best_h3": 0.1342931220194292,
+      "h3_max": 0.19604643266136945
+    },
+    {
+      "T": 1,
+      "best_preset_u_h1": 0.0,
+      "best_preset_u_h2": 1.0,
+      "best_preset_u_h3": 1.0,
+      "best_grid_u_h3": 0.9400000000000001,
+      "h1_at_best_h3": 0.2635753439503599,
+      "h2_at_best_h3": 0.22704877634025694,
+      "h3_max": 0.24531206014530843
+    },
+    {
+      "T": 2,
+      "best_preset_u_h1": 0.0,
+      "best_preset_u_h2": 1.0,
+      "best_preset_u_h3": 1.0,
+      "best_grid_u_h3": 1.0,
+      "h1_at_best_h3": 0.3512521221444061,
+      "h2_at_best_h3": 0.36685910275514877,
+      "h3_max": 0.35905561244977746
+    },
+    {
+      "T": 4,
+      "best_preset_u_h1": 0.0,
+      "best_preset_u_h2": 1.0,
+      "best_preset_u_h3": 1.0,
+      "best_grid_u_h3": 1.0,
+      "h1_at_best_h3": 0.5825473840747002,
+      "h2_at_best_h3": 0.619631214009027,
+      "h3_max": 0.6010892990418636
+    },
+    {
+      "T": 8,
+      "best_preset_u_h1": 1.0,
+      "best_preset_u_h2": 1.0,
+      "best_preset_u_h3": 1.0,
+      "best_grid_u_h3": 1.0,
+      "h1_at_best_h3": 0.8755187278962303,
+      "h2_at_best_h3": 0.8868687096598793,
+      "h3_max": 0.8811937187780547
+    },
+    {
+      "T": 12,
+      "best_preset_u_h1": 1.0,
+      "best_preset_u_h2": 1.0,
+      "best_preset_u_h3": 1.0,
+      "best_grid_u_h3": 1.0,
+      "h1_at_best_h3": 0.9441434169052008,
+      "h2_at_best_h3": 0.9382714680933462,
+      "h3_max": 0.9412074424992735
+    },
+    {
+      "T": 20,
+      "best_preset_u_h1": 1.0,
+      "best_preset_u_h2": 1.0,
+      "best_preset_u_h3": 1.0,
+      "best_grid_u_h3": 1.0,
+      "h1_at_best_h3": 0.9574913666932913,
+      "h2_at_best_h3": 0.9462009931466066,
+      "h3_max": 0.9518461799199489
+    }
+  ],
+  "weight_examples": [
+    {
+      "T": 0.5,
+      "w1": 0.0,
+      "w2": 1.0,
+      "best_u": 1.0,
+      "h3_max": 0.16695311934371332
+    },
+    {
+      "T": 0.5,
+      "w1": 0.25,
+      "w2": 0.75,
+      "best_u": 1.0,
+      "h3_max": 0.18100783028120826
+    },
+    {
+      "T": 0.5,
+      "w1": 0.5,
+      "w2": 0.5,
+      "best_u": 0.485,
+      "h3_max": 0.19604643266136945
+    },
+    {
+      "T": 0.5,
+      "w1": 0.75,
+      "w2": 0.25,
+      "best_u": 0.0,
+      "h3_max": 0.24338246879322925
+    },
+    {
+      "T": 0.5,
+      "w1": 1.0,
+      "w2": 0.0,
+      "best_u": 0.0,
+      "h3_max": 0.2916728937375369
+    },
+    {
+      "T": 1,
+      "w1": 0.0,
+      "w2": 1.0,
+      "best_u": 1.0,
+      "h3_max": 0.23329033643093214
+    },
+    {
+      "T": 1,
+      "w1": 0.25,
+      "w2": 0.75,
+      "best_u": 1.0,
+      "h3_max": 0.23928403959589062
+    },
+    {
+      "T": 1,
+      "w1": 0.5,
+      "w2": 0.5,
+      "best_u": 0.9400000000000001,
+      "h3_max": 0.24531206014530843
+    },
+    {
+      "T": 1,
+      "w1": 0.75,
+      "w2": 0.25,
+      "best_u": 0.0,
+      "h3_max": 0.30308785808859817
+    },
+    {
+      "T": 1,
+      "w1": 1.0,
+      "w2": 0.0,
+      "best_u": 0.0,
+      "h3_max": 0.371768959666514
+    },
+    {
+      "T": 4,
+      "w1": 0.0,
+      "w2": 1.0,
+      "best_u": 1.0,
+      "h3_max": 0.619631214009027
+    },
+    {
+      "T": 4,
+      "w1": 0.25,
+      "w2": 0.75,
+      "best_u": 1.0,
+      "h3_max": 0.6103602565254453
+    },
+    {
+      "T": 4,
+      "w1": 0.5,
+      "w2": 0.5,
+      "best_u": 1.0,
+      "h3_max": 0.6010892990418636
+    },
+    {
+      "T": 4,
+      "w1": 0.75,
+      "w2": 0.25,
+      "best_u": 1.0,
+      "h3_max": 0.5918183415582818
+    },
+    {
+      "T": 4,
+      "w1": 1.0,
+      "w2": 0.0,
+      "best_u": 0.0,
+      "h3_max": 0.6794047295317036
+    },
+    {
+      "T": 20,
+      "w1": 0.0,
+      "w2": 1.0,
+      "best_u": 1.0,
+      "h3_max": 0.9462009931466066
+    },
+    {
+      "T": 20,
+      "w1": 0.25,
+      "w2": 0.75,
+      "best_u": 1.0,
+      "h3_max": 0.9490235865332778
+    },
+    {
+      "T": 20,
+      "w1": 0.5,
+      "w2": 0.5,
+      "best_u": 1.0,
+      "h3_max": 0.9518461799199489
+    },
+    {
+      "T": 20,
+      "w1": 0.75,
+      "w2": 0.25,
+      "best_u": 1.0,
+      "h3_max": 0.95466877330662
+    },
+    {
+      "T": 20,
+      "w1": 1.0,
+      "w2": 0.0,
+      "best_u": 1.0,
+      "h3_max": 0.9574913666932913
+    }
+  ],
+  "boundary_examples": [
+    {
+      "T": 4,
+      "beta": 0.0,
+      "best_u": 0.42,
+      "h3_max": 0.45355169433234865
+    },
+    {
+      "T": 4,
+      "beta": 0.48,
+      "best_u": 1.0,
+      "h3_max": 0.6010892990418636
+    },
+    {
+      "T": 20,
+      "beta": 0.0,
+      "best_u": 0.44,
+      "h3_max": 0.8512777164294245
+    },
+    {
+      "T": 20,
+      "beta": 0.48,
+      "best_u": 1.0,
+      "h3_max": 0.9518461799199489
+    }
+  ],
+  "numerical_checks": {
+    "step_halving_max_error": 3.816946758661288e-13,
+    "DOP853_max_error": 6.338041202980094e-12,
+    "independent_analytic_max_error": 1.1879386363489175e-13,
+    "state_min": 0.05488116360940271,
+    "state_max": 0.9574913666932913,
+    "clipping": false,
+    "tolerance": 1e-07
+  },
+  "tie_rule": "At T=0 all u are tied; optimal-u arrays use NaN or a blank. Otherwise first grid maximizer is retained.",
+  "limitation": "Grid maxima among fixed proportions; neither continuous nor arbitrary time-varying global optimality is asserted."
+}

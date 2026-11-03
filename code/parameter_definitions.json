@@ -1,0 +1,8 @@
+[
+  {"key":"a","symbol":"a","name":"独立学习效率","mechanism":"独立阅读、思考、推导和练习形成独立知识的速率","behavior":"独立阅读教材、推导公式并完成新题","measurement":"记录无 AI 练习时间，以多次独立测评估计形成率"},
+  {"key":"beta","symbol":"\\beta","name":"AI 知识内化效率","mechanism":"AI 解释、反馈与信息转化为持久独立能力的形成率","behavior":"理解推导、核验答案、反思并独立完成迁移题","measurement":"控制 AI 时间和协作水平，以撤去 AI 后的迁移与延迟测试估计"},
+  {"key":"c","symbol":"c","name":"AI 协作学习效率","mechanism":"AI 实践形成提问、任务拆解、核验和整合技能的速率","behavior":"逐步学会拆分任务、迭代提问、识别错误和整合输出","measurement":"固定工具和支持条件，用连续协作能力测评结合实践时间估计"},
+  {"key":"eps","symbol":"\\varepsilon","name":"基础协作支持水平","mechanism":"独立知识基础为零时仍可获得的外部基础协作支持","behavior":"使用教师指导、Prompt 模板、交互提示和任务框架","measurement":"操纵模板与指导条件，比较不同知识基础的协作形成轨迹"},
+  {"key":"delta1","symbol":"\\delta_1","name":"独立能力衰减率","mechanism":"独立知识与技能的遗忘、提取困难和熟练度下降","behavior":"缺少复习或独立推导后，知识提取和操作熟练度下降","measurement":"以延迟独立测试结合期间练习记录估计，需另标定日历时间"},
+  {"key":"delta2","symbol":"\\delta_2","name":"AI 协作能力衰减率","mechanism":"提问、核验、任务拆解和工具使用技能的衰减","behavior":"缺少 AI 实践后，协作操作与核验技能生疏","measurement":"以延迟协作测试结合期间实践记录估计，需固定工具版本"}
+]
